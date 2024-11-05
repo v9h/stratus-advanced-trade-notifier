@@ -1,0 +1,1 @@
+# stratus-advanced-trade-notifier
