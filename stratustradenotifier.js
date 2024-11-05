@@ -121,7 +121,7 @@
 
     function init() {
         requestNotificationPermission();
-        setInterval(checkForNewTrades, 1800000);
+        setInterval(checkForNewTrades, 600000);
     }
 
     init();
