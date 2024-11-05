@@ -1,4 +1,4 @@
-# Advanced trade notifier
+# Advanced Trade Notifier
 
 * Will provide you sender username and headshot
 * Provides information on RAP in order to make sure it's worth it before checking the trade.
