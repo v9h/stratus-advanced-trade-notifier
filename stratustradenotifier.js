@@ -2,7 +2,7 @@
 // @name         Advanced Trade Notifier
 // @include      http://www.strrev.com/
 // @namespace    http://www.strrev.com/
-// @version      1.2
+// @version      1.4
 // @description  Notifies user when new trades are available with trade details
 // @author       goth
 // @match        *://www.strrev.com/*
@@ -103,8 +103,8 @@
     }
 
     function sendNotification(userOffer, otherOffer, userName, userHeadshot) {
-        const notification = new Notification(`Trade received from ${userName}!`, {
-            body: `${userOffer} RAP vs ${otherOffer} RAP`,
+        const notification = new Notification(`Trade Notifier`, {
+            body: `Partner name - ${userName}\nTheir RAP - ${userOffer}\nYour RAP - ${otherOffer}`,
             icon: userHeadshot
         });
 
