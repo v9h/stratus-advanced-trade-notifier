@@ -8,8 +8,8 @@
 // @match        *://www.strrev.com/*
 // @icon         https://www.strrev.com/img/logo_R.svg
 // @grant        none
-// @updateURL    NULL
-// @downloadURL  NULL
+// @updateURL    https://raw.githubusercontent.com/v9h/stratus-advanced-trade-notifier/main/stratustradenotifier.js
+// @downloadURL  https://raw.githubusercontent.com/v9h/stratus-advanced-trade-notifier/main/stratustradenotifier.js
 // ==/UserScript==
 
 (function() {
